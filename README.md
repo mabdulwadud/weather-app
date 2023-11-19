@@ -57,8 +57,7 @@ After navigating to the URL, feel free to explore the routes in the app, such as
 - The server listens on port 5000 by default. 
 
 Feel free to customize the application based on your requirements. 
-If you encounter any issues or have questions, refer to the docuentation
-or seek help from the community.
+If you encounter any issues or have questions, refer to the docuentation.
 
 
 
