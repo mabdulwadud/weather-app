@@ -1,0 +1,19 @@
+<!-- weather.ejs -->
+
+<%- include('partials/header') %>
+  <div class="container">
+    <div class="weather-card" style=<%=backgroundColor%>>
+      <p><%= location %></p>
+      <h1><%= temperature %>&degF</h1>
+      <span class="icon"><img src=<%=icon %> alt=""></span>
+      <!-- <p><%=weather%></p> -->
+      <p><%=description%></p>
+      <form action="/" method="post">
+        <div class="search-container">
+          <input type="text" name="location" placeholder="Search City" class="search-input">
+          <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+<%- include('partials/footer') %>

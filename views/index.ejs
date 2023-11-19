@@ -1,0 +1,13 @@
+<!-- index.ejs -->
+
+<%- include('partials/header') %>
+  <div class="container">
+    <h1>Search Your City Below</h1>
+    <form action="/" method="post">
+      <div class="search-container">
+        <input type="text" name="location" placeholder="Search City" class="search-input">
+        <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+      </div>
+    </form>
+  </div>
+  <%- include('partials/footer') %>
