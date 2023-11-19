@@ -14,7 +14,7 @@ I have subscribed to the 'Current Weather Data' API. At the time of this posting
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mabdulwadud/weather-app
 cd <repository-directory>
 ```
 
