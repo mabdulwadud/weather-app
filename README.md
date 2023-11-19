@@ -37,6 +37,7 @@ const apiKey = "YOUR_API_KEY_HERE";
 
 ## 4. Run The application
 
+Start the appliation via your terminal: 
 ```bash
 nodemon
 ```
