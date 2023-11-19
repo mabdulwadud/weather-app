@@ -37,7 +37,7 @@ const apiKey = "YOUR_API_KEY_HERE";
 
 ## 4. Run The application
 
-'''bash
+```bash
 nodemon
 ```
 
